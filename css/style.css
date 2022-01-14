@@ -2,11 +2,19 @@
     width: 51%;
 }
 
-.centered {
+.centeredLeft {
     position: absolute;
     top: 50%;
     left: 71.15%;
     transform: translate(-50%, -50%);
+}
+
+.centeredRight {
+    position: absolute;
+    top: 45%;
+    right: 73.5%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
 .container {
